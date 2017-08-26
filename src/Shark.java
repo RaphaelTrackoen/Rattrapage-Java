@@ -4,11 +4,8 @@ public class Shark extends Motion{
 	private int enemiesID;
 	private int preyID;
 	private int preyID2;
-
 	
 ////////////////////////////////  Constructor  ////////////////////////////////////////////////
-	
-	
 	
 	public Shark() {
 		super();
@@ -43,15 +40,7 @@ public class Shark extends Motion{
 	public void createShark() {
 		Shark shark1 = new Shark(15, 1, "Shark", 5, true, 35, 10, 1, 3, 2, 4);
 		
-		//System.out.println(shark1.decrisToi());
-	}
-	
-	public void cycleShark() {
-		
-	}
-	
-	public void ageShark() {
-		super.setAge(super.getAge() + 1);
+		System.out.println(shark1.decrisToi());
 	}
 	
 	
