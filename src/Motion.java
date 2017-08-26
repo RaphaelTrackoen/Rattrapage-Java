@@ -54,9 +54,10 @@ public class Motion {
 	
 	 public String decrisToi(){
 		 
-		 return "Le poisson est un " + this.name+", il a " + this.age + " ans et a une satiété de " + this.satiety + " et une vitesse de " +this.speed;
+		 return "Le poisson est un " + this.name+", il a " + getAge() + " ans et a une satiété de " + this.satiety + " et une vitesse de " +this.speed;
 		 
 		  }
+	 
 
 ////////////////////////////////Getters and Setters ////////////////////////////////////////////////
 
