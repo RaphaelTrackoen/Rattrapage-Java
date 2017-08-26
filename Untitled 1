@@ -1,0 +1,35 @@
+list of ID
+
+Shark ID : 1
+Whale ID : 2
+Medusa ID : 3 
+GoldFish : 4
+Seaweed : 5
+
+/////////////////////////Shark///////////////////////////
+Enemy of Shark :
+3
+Preys of Shark :
+2 (+10)
+4 (+1)
+
+/////////////////////////Whale//////////////////////////
+Enemy of Whale :
+1
+Preys of Whale : 
+3 (+5)
+4 (+1)
+
+/////////////////////////Medusa/////////////////////////
+Enemy of Medusa :
+2
+Prey of Medusa : 
+4 (+2)
+
+/////////////////////////Goldfish//////////////////////
+Enemy of GoldFish :
+1
+2
+3
+Prey of GoldFish :
+none

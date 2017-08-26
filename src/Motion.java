@@ -30,27 +30,33 @@ public class Motion {
 
 
 
-	public Motion(int pSatiety, int pSpeciesID, String pName, int pBirthDelay, boolean 
-			pCanReproduce, int pLifeExpectancy,int pSpeed,int pAge ){
+	public Motion(int pSatiety, int pSpeciesID, final String pName, int pBirthDelay, boolean 
+			pCanReproduce, final int pLifeExpectancy,int pSpeed,int pAge ){
 		name = pName;
-		System.out.println("Création d'un " + pName);
+	//	System.out.println("Création d'un " + pName);
 		satiety = pSatiety;
-		System.out.println("Valeur de la satiété : " + pSatiety);
+	//	System.out.println("Valeur de la satiété : " + pSatiety);
 		speciesID = pSpeciesID;
 		birthDelay = pBirthDelay;
-		System.out.println("Délai entre 2 naissances : " + pBirthDelay);
+	//	System.out.println("Délai entre 2 naissances : " + pBirthDelay);
 		canReproduce = pCanReproduce;
-		System.out.println("Peut se reproduire : " + pCanReproduce);
+		//System.out.println("Peut se reproduire : " + pCanReproduce);
 		lifeExpectancy = pLifeExpectancy;
-		System.out.println("Espérance de vie : " + pLifeExpectancy);
+	//	System.out.println("Espérance de vie : " + pLifeExpectancy);
 		speed = pSpeed;
-		System.out.println("Vitesse : " + pSpeed);
+	//	System.out.println("Vitesse : " + pSpeed);
 		age = pAge;
-		System.out.println("Age : " + pAge);
+	//	System.out.println("Age : " + pAge);
 		
 	}
 
-
+////////////////////////////////Methods/////////////////////////////////////////////////////////////
+	
+	 public String decrisToi(){
+		 
+		 return "Le poisson est un " + this.name+", il a " + this.age + " ans et a une satiété de " + this.satiety + " et une vitesse de " +this.speed;
+		 
+		  }
 
 ////////////////////////////////Getters and Setters ////////////////////////////////////////////////
 
@@ -95,6 +101,7 @@ public class Motion {
 		this.canReproduce = canReproduce;
 	}
 
+	
 	public int getLifeExpectancy() {
 		return lifeExpectancy;
 	}
@@ -118,6 +125,11 @@ public class Motion {
 	public void setAge(int age) {
 		this.age = age;
 	}
+
+
+
+
+
 	
 	
 }
