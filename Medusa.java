@@ -1,7 +1,7 @@
 
 import javax.swing.ImageIcon;
 
-public class Medusa extends Motion{
+public class Jellyfish extends Motion{
     private int foodLevel;
     private int satiety;
     private int life;
@@ -10,9 +10,9 @@ public class Medusa extends Motion{
     
 /////////////////////////////////////////////////////////////  Constructor /////////////////////////////////////////////////////////////     
     
-    public Medusa()
+    public Jellyfish()
     {
-        super("Medusa");
+        super("Jellyfish");
         this.foodLevel = 10;
         this.satiety = 15;
         this.life = 0;
